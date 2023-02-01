@@ -28,12 +28,18 @@
 //     }, 0);
 // };
 
-const number = function(busStops){
-   let num = 0
-   for (let i = 0; i < busStops.length; i++) {
-        num += busStops[i][0];
-        num -= busStops[i][1];
-   }
-   return num
-};
-console.log(number([[10,0],[3,5],[5,8]]))
+// const number = function(busStops){
+//    let num = 0
+//    for (let i = 0; i < busStops.length; i++) {
+//         num += busStops[i][0];
+//         num -= busStops[i][1];
+//    }
+//    return num
+// };
+// console.log(number([[10,0],[3,5],[5,8]]))
+
+// const moment = require('moment');
+import moment from 'moment';
+
+let date = moment().utcOffset("+07:00").format();
+console.log(date);

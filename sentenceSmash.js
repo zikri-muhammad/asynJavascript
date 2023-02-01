@@ -13,3 +13,5 @@ const smash = (words) => {
 }
 
 console.log(smash(["hello", "world"]))
+console.log(smash(["hello", "world", "anemi", "ajkdsjkd"]))
+console.log(smash(["hello", "world"]))
